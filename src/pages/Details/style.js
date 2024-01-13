@@ -13,13 +13,14 @@ export const Container = styled.div`
   > main {
     grid-area: content;
     padding: 50px 0;
-    overflow: scroll;
   }
 `;
 
 export const Content = styled.div`
   max-width: 1120px;
   margin: 0 auto;
+  width: fit-content;
+  overflow: scroll;
 `;
 
 export const Title = styled.div`
