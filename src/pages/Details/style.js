@@ -13,14 +13,18 @@ export const Container = styled.div`
   > main {
     grid-area: content;
     padding: 50px 0;
+    overflow: hidden;
   }
 `;
 
 export const Content = styled.div`
   max-width: 1120px;
+  padding-right: 16px;
   margin: 0 auto;
-  width: fit-content;
   overflow: scroll;
+  overflow-x: hidden;
+
+  height: 75vh;
 `;
 
 export const Title = styled.div`
@@ -41,7 +45,7 @@ export const Infos = styled.div`
 
   gap: 20px;
   align-items: center;
-  margin: 24px 0 40px 0;
+  margin-top: 24px;
 `;
 
 export const Author = styled.div`
@@ -68,4 +72,11 @@ export const Date = styled.div`
 
     color: ${({ theme }) => theme.COLOR.SALMON};
   }
+`;
+
+export const Tags = styled.div`
+  display: flex;
+  gap: 8px;
+
+  margin: 40px 0;
 `;

@@ -6,6 +6,20 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+  
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.COLOR.SALMON};
+    border-radius: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: ${({ theme }) => theme.COLOR.BACKGROUND_800};
+    border-radius: 8px;
+  }
 
   body {
     background-color: ${({ theme }) => theme.COLOR.BACKGROUND_800};

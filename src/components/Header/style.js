@@ -4,6 +4,9 @@ export const Container = styled.header`
   grid-area: header;
 
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 
   padding: 24px 0;
   display: flex;
@@ -13,6 +16,7 @@ export const Container = styled.header`
   align-items: center;
 
   border-bottom: 1px solid ${({ theme }) => theme.COLOR.GRAY_400};
+  background-color: ${({ theme }) => theme.COLOR.BACKGROUND_800};
 `;
 
 export const Logo = styled.h1`
