@@ -40,4 +40,17 @@ export default createGlobalStyle`
   button {
     font-weight: 500;
   }
+
+  *::-webkit-scrollbar {
+    width: 8px;
+  } 
+
+  *::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: ${({ theme }) => theme.COLOR.SALMON};
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: ${({ theme }) => theme.COLOR.BACKGROUND_800};
+  }
 `;

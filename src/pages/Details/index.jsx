@@ -1,8 +1,9 @@
-import { Container, Content, Title, Infos, Author, Date } from './style';
+import { Container, Content, Title, Infos, Author, Date, TagList } from './style';
 
 import { Header } from "../../components/Header";
 import { ButtonText } from "../../components/ButtonText";
 import { Rating } from "../../components/Rating";
+import { Tag } from '../../components/Tag';
 
 import { FiArrowLeft, FiClock } from "react-icons/fi"
 
@@ -33,7 +34,12 @@ export function Details() {
             </Date>
           </Infos>
 
-          {/* <Tags /> */}
+          <TagList>
+            <Tag title="Action" />
+            <Tag title="horror" />
+            <Tag title="comedy" />
+            <Tag title="Nothing" />
+          </TagList>
 
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. 

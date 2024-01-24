@@ -13,6 +13,7 @@ export const Container = styled.div`
   > main {
     grid-area: content;
     padding: 50px 0;
+    overflow: hidden;
   }
 `;
 
@@ -20,7 +21,10 @@ export const Content = styled.div`
   max-width: 1120px;
   margin: 0 auto;
   width: fit-content;
-  overflow: scroll;
+  padding-right: 16px;
+  overflow-y: scroll;
+
+  height: 75vh;
 `;
 
 export const Title = styled.div`
@@ -68,4 +72,11 @@ export const Date = styled.div`
 
     color: ${({ theme }) => theme.COLOR.SALMON};
   }
+`;
+
+export const TagList = styled.div`
+  display: flex;
+  gap: 8px;
+
+  margin-bottom: 40px;
 `;
