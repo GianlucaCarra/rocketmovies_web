@@ -11,6 +11,7 @@ export default {
     GRAY_500: "#312E38",
 
     WHITE: "#F4EDE8",
-    SALMON: "#FF859B"
+    SALMON: "#FF859B",
+    SALMON_5: "rgb(255, 133, 155, 0.05) "
   }
 }

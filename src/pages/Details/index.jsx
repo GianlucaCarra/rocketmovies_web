@@ -19,7 +19,7 @@ export function Details() {
           <Title>
             <h1>Harry potter</h1>
 
-            <Rating />
+            <Rating size={20} />
           </Title>
 
           <Infos>
