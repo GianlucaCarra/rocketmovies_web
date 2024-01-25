@@ -9,7 +9,7 @@ export function Header() {
         RocketMovies
       </Logo>
 
-      <Input title={"Search by name"}/>
+      <Input placeholder={"Search by name"}/>
 
       <Profile>
         <div>
