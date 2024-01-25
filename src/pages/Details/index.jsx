@@ -5,7 +5,7 @@ import { ButtonText } from "../../components/ButtonText";
 import { Rating } from "../../components/Rating";
 import { Tag } from '../../components/Tag';
 
-import { FiArrowLeft, FiClock } from "react-icons/fi"
+import { FiArrowLeft, FiClock } from "react-icons/fi";
 
 export function Details() {
   return(

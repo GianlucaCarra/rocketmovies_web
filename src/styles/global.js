@@ -13,7 +13,7 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
-  body, a, button, input, *::placeholder {
+  body, a, button, input, textarea, *::placeholder {
     color: ${({ theme }) => theme.COLOR.WHITE};
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
