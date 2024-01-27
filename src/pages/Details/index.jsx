@@ -14,7 +14,7 @@ export function Details() {
       
       <main>
         <Content>
-          <ButtonText icon={FiArrowLeft} title={"Back"} />
+          <ButtonText to="/" icon={FiArrowLeft} title={"Back"} />
 
           <Title>
             <h1>Harry potter</h1>

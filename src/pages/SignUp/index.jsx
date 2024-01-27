@@ -23,7 +23,7 @@ export function SignUp(){
         
         <Button title="Sign up" />
 
-        <ButtonText icon={FiArrowLeft} title="Return to Log In" />
+        <ButtonText to="/" icon={FiArrowLeft} title="Return to Log In" />
       </Form>
 
       <Background />

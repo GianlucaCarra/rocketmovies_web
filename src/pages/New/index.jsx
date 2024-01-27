@@ -15,7 +15,7 @@ export function New() {
 
       <main>
         <Content>
-          <ButtonText icon={FiArrowLeft} title={"Back"} />
+          <ButtonText to="/" icon={FiArrowLeft} title={"Back"} />
 
           <h1>New Movie</h1>
 

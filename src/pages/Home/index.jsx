@@ -1,7 +1,6 @@
-import { Container, Content } from "./style";
+import { Container, Content, NewButton } from "./style";
 
 import { Header } from "../../components/Header";
-import { Button } from "../../components/Button";
 import { Review } from "../../components/Review";
 
 import { FiPlus } from "react-icons/fi";
@@ -17,7 +16,10 @@ export function Home() {
             <h1>My reviews</h1>
 
             <div>
-              <Button icon={FiPlus} title="New review" />
+              <NewButton href="/new"> 
+                <FiPlus/>
+                New movie
+              </NewButton>
             </div>
           </div>
 

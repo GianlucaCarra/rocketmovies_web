@@ -1,11 +1,11 @@
+import { Link } from "react-router-dom";
+
 import styled from "styled-components";
 
-export const Container = styled.button`
+export const Container = styled.a`
   display: flex;
   align-items: center;
 
-  background-color: transparent;
-  
   gap: 8px;
   
   color: ${({ theme }) => theme.COLOR.SALMON};
@@ -13,5 +13,9 @@ export const Container = styled.button`
   svg {
     font-size: 16px;
     color: ${({ theme }) => theme.COLOR.SALMON};
+  }
+
+  &:hover {
+    cursor: pointer;
   }
 `;
