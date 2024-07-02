@@ -29,6 +29,7 @@ export function New() {
 
             <AddTag>
               <h2>Tags</h2>
+              
               <section>
                 <TagItem isNew placeholder="New tag" />
               </section>
